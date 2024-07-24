@@ -1,0 +1,13 @@
+---
+title: LLM Notes
+description: Notes on LLMs
+listing:
+  type: table
+  sort-ui: false
+  filter-ui: false
+  table-striped: false
+  table-hover: true
+  contents:
+    - "/**/index.qmd"
+  fields: [title,description]
+---

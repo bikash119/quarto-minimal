@@ -1,0 +1,7 @@
+---
+title: "OpenAI"
+date: 07/24/2024
+---
+Function calling
+
+## OpenAI

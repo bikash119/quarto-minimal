@@ -1,0 +1,58 @@
+project:
+  type: website
+
+website:
+  bread-crumbs: false
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Blogs"
+        href: blogs/index.qmd
+      - text: "Notes"
+        href: notes/index.qmd
+      - text: "About"
+        href: about.qmd
+
+  sidebar:
+    - title: "Notes"
+      style: "docked"
+      background: light
+      contents:
+        - section: "LLM"
+          contents: notes/LLM/**
+        - section: "Argilla"
+          contents: argilla/index.qmd
+        - section: "Python"
+          contents: python/index.qmd
+        - section: "dotfiles"
+          contents: notes/index.qmd
+        - section: "quarto"
+          contents: quarto/index.qmd
+        - section: "tinygrad"
+          contents: tinygrad/index.qmd
+
+
+  page-footer:
+    center:
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com/
+      - icon: huggingface
+        href: https://huggingface.co
+      - icon: linkedin
+        href: https://linkedin.com
+
+format:
+  html:
+    theme:
+      light: lumen
+      dark: cyborg
+    css: styles.css
+    toc: true
+
+
+

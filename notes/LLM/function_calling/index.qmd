@@ -1,0 +1,13 @@
+---
+title: Function Calling
+description: Notes on LLMs Function Calling
+listing:
+  type: table
+  sort-ui: false
+  filter-ui: false
+  table-striped: false
+  table-hover: true
+  contents:
+    - "/*.qmd"
+  fields: [title, description]
+---

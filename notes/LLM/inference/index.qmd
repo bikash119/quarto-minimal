@@ -1,0 +1,13 @@
+---
+title: LLM Inference
+description: Notes on LLMs Inference
+listing:
+  type: table
+  sort-ui: false
+  filter-ui: false
+  table-striped: false
+  table-hover: true
+  contents:
+    - "/*.qmd"
+  fields: [title,description]
+---
